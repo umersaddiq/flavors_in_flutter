@@ -17,3 +17,6 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
+/// For iOS Configuration watch this video
+/// https://www.youtube.com/watch?v=EyQfuKvVUGY at this timestamp 08 : 10
