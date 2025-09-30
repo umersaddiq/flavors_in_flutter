@@ -1,0 +1,43 @@
+flavors:
+  development:
+    app:
+      name: "[DEV] My App"
+      icon: assets/icons/Logo-Development.png
+
+    android:
+      applicationId: "com.example.del_dev"
+      adaptiveIcon:
+        foreground: assets/icons/Logo-Development.png
+        background: assets/icons/Logo-Development.png
+    ios:
+      bundleId: "com.example.del_dev"
+
+  staging:
+    app:
+      name: "[STG] My App"
+      icon: assets/icons/Logo-Staging.png
+
+    android:
+      applicationId: "com.example.del_stg"
+      adaptiveIcon:
+        foreground: assets/icons/Logo-Staging.png
+        background: assets/icons/Logo-Staging.png
+    ios:
+      bundleId: "com.example.del_stg"
+
+  production:
+    app:
+      name: "My App"
+      icon: assets/icons/Logo-Production.png
+
+    android:
+      applicationId: "com.example.del"
+      adaptiveIcon:
+        foreground: assets/icons/Logo-Production.png
+        background: assets/icons/Logo-Production.png
+    ios:
+      bundleId: "com.example.del"
+
+ide: "idea"
+
+# idea or vscode
