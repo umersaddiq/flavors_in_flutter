@@ -31,32 +31,6 @@ android {
             signingConfig = signingConfigs.getByName("debug")
         }
     }
-
-    android.apply {
-        flavorDimensions("app")
-
-        productFlavors {
-            create("dev") {
-                dimension = "app"
-                applicationIdSuffix = ".dev"
-                versionNameSuffix = "-dev"
-//                applicationId = "com.codewithandrea.flutter_ship_app.dev"
-                resValue(type = "string", name = "app_name", value = "Flavors Dev")
-            }
-            create("staging") {
-                dimension = "app"
-                applicationIdSuffix = ".staging"
-                versionNameSuffix = "-staging"
-//                applicationId = "com.codewithandrea.flutter_ship_app.stg"
-                resValue(type = "string", name = "app_name", value = "Flavors Staging")
-            }
-            create("prod") {
-                dimension = "app"
-//                applicationId = "com.codewithandrea.flutter_ship_app"
-                resValue(type = "string", name = "app_name", value = "Flavors")
-            }
-        }
-    }
 }
 
 flutter {

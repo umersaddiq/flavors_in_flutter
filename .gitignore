@@ -30,3 +30,4 @@ app.*.map.json
 pubspec.lock
 *.g.dart
 *.freezed.dart
+.vscode
