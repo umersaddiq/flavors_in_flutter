@@ -30,4 +30,6 @@ app.*.map.json
 pubspec.lock
 *.g.dart
 *.freezed.dart
-.vscode
+.tmp
+config.bat
+node_modules
