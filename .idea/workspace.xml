@@ -10,9 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="41893acf-657e-47a6-89f6-09363d7701c8" name="Changes" comment=":zap: `Manifest Unnecessary Code Removed`">
-      <change beforePath="$PROJECT_DIR$/android/app/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/app.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/app.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +55,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Flutter.Dev.executor": "Run",
+    "Flutter.Development.executor": "Run",
     "Flutter.Production.executor": "Run",
     "Flutter.Staging.executor": "Run",
     "Flutter.main.dart.executor": "Run",
@@ -74,7 +73,7 @@
     "show.migrate.to.gradle.popup": "false"
   }
 }]]></component>
-  <component name="RunManager" selected="Flutter.Production">
+  <component name="RunManager" selected="Flutter.Staging">
     <configuration name="Development" type="FlutterRunConfigurationType" factoryName="Flutter">
       <option name="buildFlavor" value="dev" />
       <option name="filePath" value="$PROJECT_DIR$/lib/main_dev.dart" />
