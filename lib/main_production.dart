@@ -3,7 +3,7 @@ import 'main_common.dart';
 
 void main() {
   mainCommon(
-    flavor: Flavor.production,
+    flavor: Flavor.prod,
     baseUrl: 'https://api.abc.com/',
     name: "Production",
   );

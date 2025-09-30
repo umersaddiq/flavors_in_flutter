@@ -1,4 +1,4 @@
-enum Flavor { dev, staging, production }
+enum Flavor { dev, staging, prod }
 
 class FlavorConfig {
   FlavorConfig._({
@@ -27,7 +27,7 @@ class FlavorConfig {
     return _instance!;
   }
 
-  static bool get isProduction => instance.flavor == Flavor.production;
+  static bool get isProduction => instance.flavor == Flavor.prod;
 
   static bool get isDevelopment => instance.flavor == Flavor.dev;
 
